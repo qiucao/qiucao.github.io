@@ -1,0 +1,384 @@
+.zzzr-banner{
+	height: 345px;
+	background-image: url(../images/zzzr/zzzr-banner.png);
+	margin-top: 100px;
+}
+.zzzr-tab{
+	height: 50px;
+	margin-top: 20px;
+}
+.zzzr-tab div{
+	width: 163px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-family: "Microsoft YaHei";
+	cursor: pointer;
+}
+.zzzr-tab div.active{
+	background-color: #fff;
+	color: #9F7E3E;
+	font-size: 20px;
+}
+.tab-content{
+	width: 1170px;
+	height: 240px;
+	background-color: #fff;`
+}
+.tab-content ul{
+	width: 1170px;
+	margin: 0 auto;
+}
+.center{
+	width: 1170px;
+	margin: 0 auto;
+}
+li.info1{
+	width: 338px;
+	height: 178px;
+	border: #9F7E3E 1px solid;
+	border-radius: 6px;
+	float: left;
+	background-color: #fff;
+	margin-left: 35px;
+	margin-top: 30px;
+}
+.info1 p.top {
+	height: 50px;
+	line-height: 50px;
+	border-bottom: #9F7E3E 1px solid;
+}
+.info1 p.middle{
+	height: 70px;
+	border-bottom: #9F7E3E 1px solid;
+	line-height: 32px;
+	color: #666;
+	font-size: 14px;
+	padding: 3px 25px;
+}
+.info1 p.bottom{
+	height: 56px;
+}
+.info1 p.bottom strong{
+	font-size: 26px;
+	font-weight: normal;
+	color: #FF8000;
+	padding-left: 25px;
+}
+.info1 p span.num{
+	font-size: 24px;
+	color: #9F7E3E;
+	padding-left: 20px;
+	float: left;
+}
+.info1 p span.status_label{
+	display: block;
+	float: right;
+	width: 60px;
+	height: 30px;
+	border-radius: 15px;
+
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	margin-right: 10px;
+	margin-top: 10px;
+}
+span.zr{
+	background-color: #1B92E2;
+}
+span.zz{
+	background-color: #34BFA2;
+}
+.condition{
+	width: 100%;
+	min-width: 1200px;
+	height: 60px;
+	border-bottom: 1px solid #EBEBEB;
+	margin-top: 445px;
+}
+.condition .content{
+	width: 1200px;
+	margin: 0 auto;
+}
+.content select:first-child{
+	border-left: 1px solid #EBEBEB;
+}
+.content select{
+	height: 60px;
+	border: 0;
+	border-right: 1px solid #EBEBEB;
+	font-size: 16px;
+	color: #666666;
+	font-family: "Microsoft YaHei";
+	width: 160px;
+	padding-left: 10px;
+	float: left;
+}
+.main-box{
+	float: left;
+	width: 880px;
+	padding: 15px 0 0px;
+}
+.main-info{
+	width: 880px;
+	padding: 2px 0;
+	height: 200px;
+}
+.info2{
+	width: 418px;
+	height: 178px;
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	float: left;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+.info2:first-child{
+	margin-left: 0;
+}
+.info2 .left-label{
+	float: left;
+	width: 80px;
+	height: 100%;
+	border-right: 1px solid #DDDDDD;
+	position: relative;
+}
+.left-label .circle{
+	width: 17px;
+	height: 17px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	background-image: url(../images/zzzr/quan.png);
+}
+.left-label img{
+	position: absolute;
+	top: 64px;
+	left: 26px;
+}
+.right-content{
+	float: left;
+	width: 337px;
+}
+p.rc-top{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ddd;
+}
+p.rc-top label{
+	color: #333333;
+	font-size: 24px;
+	font-family: "Microsoft YaHei";
+	margin-left: 20px;
+}
+p.rc-middle{
+	height: 70px;
+	border-bottom: #ddd 1px solid;
+	line-height: 32px;
+	color: #666;
+	font-size: 14px;
+	padding: 5px 25px 3px;
+}
+p.rc-bottom{
+	height: 56px;
+}
+p.rc-bottom strong{
+	font-size: 26px;
+	font-weight: normal;
+	color: #FF8000;
+	padding-left: 25px;
+}
+.bord_list_page{
+	width: 600px;
+	height: 40px;
+	margin: 15px auto 0;
+	float: none;
+	display: block;
+}
+.sidebar{
+	width: 295px;
+	float: left;
+	margin-top: 40px;
+}
+.sidebar .publish{
+	width: 295px;
+	height: 159px;
+	border: 1px solid #E3EAF9;
+}
+.publish a.link1{
+	width: 240px;
+	height: 48px;
+	display: block;
+	text-align: center;
+	line-height: 48px;
+	background-color: #1B92E2;
+	font-size: 16px;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	margin: 25px auto 15px;
+}
+.publish a.link1:hover{
+	text-decoration: none;
+}
+.publish a.link2{
+	border: 1px solid #1B92E2;
+	width: 238px;
+	height: 46px;
+	display: block;
+	text-align: center;
+	line-height: 48px;
+	background-color: #fff;
+	font-size: 16px;
+	color: #1B92E2;
+	font-family: "Microsoft YaHei";
+	margin: 15px auto 15px;
+}
+.publish a.link2:hover{
+	text-decoration: none;
+}
+.history{
+	width: 295px;
+	height: 200px;
+	border: 1px solid #E3EAF9;
+	margin-top: 10px;
+}
+.history > h4{
+	font-size: 18px;
+	color: #1A92E1;
+	margin-top: 18px;
+	margin-left: 26px;
+}
+.history .history-item{
+	width: 240px;
+	height: 115px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin: 25px auto 0;
+}
+.history-item div.img{
+	float: left;
+	width: 54px;
+	border-right: 1px solid #ddd;
+	height: 100%;
+}
+.history-item div.img img{
+	display: block;
+	margin: 24px auto;
+}
+.history-item div.content{
+	float: left;
+	position: relative;
+	width: 185px;
+	height: 115px;
+}
+.history-item div.content .close-btn{
+	position: absolute;
+	background-image: url(../images/ico/close.png);
+	width: 24px;
+	height: 24px;
+	right: 10px;
+	top: 7px;
+}
+.history-item div.content h4{
+	font-size: 20px;
+	color: #666666;
+	margin-left: 12px;
+	margin-top: 14px;
+}
+.history-item div.content p{
+	font-size: 14px;
+	color: #999999;
+	margin-left: 12px;
+	margin-top: 18px;
+}
+.recommend{
+	width: 295px;
+	height: 259px;
+	border: 1px solid #E3EAF9;
+	margin-top: 10px;
+}
+.recommend a.re-more{
+	width: 240px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	margin: 10px auto 0;
+	background-color: #DDDDDD;
+	color: #666;
+	text-align: center;
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+}
+.recommend a.re-more:hover{
+	text-decoration: none;
+}
+.zz-title{
+	background-image: url(../images/zzzr/tit_zz.png);
+	background-position: 2px center;
+	background-repeat: no-repeat;
+	padding-left: 54px;
+	height: 54px;
+	line-height: 54px;
+	width: 310px;
+	text-align: left;
+	font-size: 14px;
+	color: #666666;
+	margin: 0 auto;
+}
+.shopnum{
+	color: #0085DF;
+	font-size: 32px;
+	margin: 0px 6px;
+}
+.tb-list{
+	width: 900px;
+	margin: 20px auto 10px;
+}
+.tb-list .shop-info{
+	width: 900px;
+	
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.shop-info tr td{
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	height: 60px;
+	line-height: 60px;
+}
+.shop-info tr td:first-child{
+	border-left: 0;
+}
+.shop-info tr td.label{
+	color: #999;
+	text-align: right;
+	padding-right: 12px;
+	font-size: 14px;
+}
+.shop-info tr td.value{
+	color: #666;
+	text-align: left;
+	padding-left: 12px;
+	font-size: 14px;
+}
+.shop-info tr td.value strong{
+	font-size: 14px;
+}
+.red{
+	color: red;
+}
+div.img{
+	margin: 40px auto 10px;
+}
+.zzzr-left{
+	float: left;
+	margin-left: 100px;
+}

@@ -1,0 +1,184 @@
+.ddyy-banner{
+	background-image: url(../images/banner/ddyy.png);
+	height: 888px;
+}
+div.ddyy-container{
+	margin-top: 888px;
+}
+.row1{
+	padding-top: 80px;
+}
+.row1 .emoji{
+	float: left;
+}
+.emoji-gif-box{
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+.emoji-gif-box ul.grid:first-child{
+
+}
+.emoji-gif-box ul.grid{
+	height: 114px; 
+
+}
+ul.grid li{
+	width: 138px;
+	height: 114px;
+	float: left;
+}
+ul.grid li.leftborder{
+	border-left: 1px solid #E5E5E5;
+}
+ul.grid li.bottomborder{
+	border-bottom: 1px solid #E5E5E5;
+}
+ul.grid li.position{
+	position: relative;
+}
+ul.grid li > img{
+	margin: 8px auto 0;
+	display: block;
+}
+li.position div.hover-gif{
+	position: absolute;
+	background-image: url(../images/ddyy/hover.png);
+	top:-180px;
+	left: -20px;
+	z-index: 4;
+	width: 175px;
+	height: 186px;
+	display: none;
+}
+div.hover-gif > img{
+	margin: 18px auto 0;
+	display: block;
+}
+.download-link{
+	padding-left: 20px;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.download-link a{
+	width: 150px;
+	height: 44px;
+	line-height: 44px;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+	background-color: #0087E1;
+	border-radius: 6px;
+	margin-left: 10px;
+}
+.download-link a:hover{
+	text-decoration: none;
+}
+.row1 .phone{
+	margin-left: 40px;
+	float: left;
+}
+.row2{
+	padding-top: 120px;
+}
+.row2 .phone{
+	margin-left: 10px;
+	float: left;
+}
+.row2 .emoji{
+	float: left;
+	margin-left: 5px;
+}
+.row2 .download-link{
+	float: right;
+}
+.row3 {
+	padding-top: 120px;
+}
+.row3 img.third-title{
+	display: block;
+	margin: 2px auto;
+}
+.row3 div.emoji{
+	width: 570px;
+	margin: 0 auto;
+}
+.row3 .download-link{
+	text-align: center;
+	margin-top: 70px;
+	padding-left: 0px;
+}
+.row4{
+	padding-top: 160px;
+	padding-bottom: 90px;
+}
+.row4 .forth-title{
+	margin: 10px auto 10px;
+	display: block;
+}
+.row4 .edu-tab{
+	width: 380px;
+	margin: 22px auto;
+	text-align: center;
+}
+.edu-tab a{
+	width: 178px;
+	height: 48px;
+	display: block;
+	float: left;
+	border: 1px solid #f4f4f4;
+	line-height: 48px;
+	font-family: "Microsoft YaHei";
+	font-size: 18px;
+	color: #7c7c7c;
+}
+.edu-tab a:first-child{
+	margin-left: 14px;
+}
+.edu-tab a:hover{
+	text-decoration: none;
+}
+.edu-tab a:visited{
+	text-decoration: none;
+}
+.edu-tab a.active{
+	color: #fff;
+	background-color: #0086cc;
+	text-decoration: none;
+}
+
+.index-footer{
+	width: 100%;
+	height: 160px;
+	background-color: #565656;
+}
+.index-footer p{
+	text-align: center;
+	color: #FFFFFF;
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+}
+.index-footer p.main{
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 4px;
+}
+.index-footer p.friend-link{
+	padding: 3px 0;
+}
+.index-footer p.friend-link a{
+	color: #FFFFFF;
+	padding: 0 4px;
+}
+.index-footer p.friend-link a:hover{
+	color: #20A6FF;
+}
+.index-footer p.right{
+	padding: 3px 0;
+}
+.index-footer p.serviceline{
+	padding: 3px 0;
+	font-size: 14px;
+}

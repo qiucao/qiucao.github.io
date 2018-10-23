@@ -1,0 +1,238 @@
+@charset "utf-8";
+.border-bottom{
+	border-bottom: 1px solid #ddd;
+}
+.news-banner{
+	margin-top: 100px;
+	height: 229px;
+	background-image: url(../images/news/banner1.png);
+	width: 100%;
+    min-width: 1200px;
+    background-position: center center;
+}
+.left-nav{
+	margin-top: 25px;
+	width: 280px;
+	height: 200px;
+	float: left;
+}
+.main{
+	background-image: url(../images/news/left-nav.png);
+	background-repeat: no-repeat;
+	background-position: 14px center;
+	padding-left: 54px;
+	width: 186px;
+	height: 60px;
+	line-height: 60px;
+	background-color: #1B92E2;
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: "Microsoft YaHei";
+}
+.vice{
+	width: 186px;
+	padding-left: 54px;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #fff;
+	background-color: #eee;
+	font-size: 14px;
+	color: #666;
+}
+div.right-list{
+	float: left;
+	margin-top: 25px;
+}
+ul.news-list{
+	width: 874px;
+}
+ul.news-list li{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px dashed #ddd;
+	text-align: left;
+}
+
+ul.news-list li > span.link{
+	width: 730px;
+	display: block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	float: left;
+}
+span.link a{
+	color: #666666;
+	font-size: 14px;
+}
+span.link a:hover{
+	color: #0086cc;
+}
+ul.news-list li > span.date{
+	padding-left: 60px;
+	font-size: 14px;
+	color: #666;
+	font-family: "SimSun";
+}
+ul.news-more{
+	width: 1100px;
+	margin: 0 auto;
+}
+.news-content ul.news-more li.title{
+	
+}
+.news-content ul.news-more li.title label{
+	font-weight: bold;
+	font-size: 14px;
+}
+.news-content ul.news-more li span.link{
+	width: 960px;
+}
+
+
+.nc-container{
+	margin-top: 120px;
+}
+.location{
+	width: 1180px;
+	height: 43px;
+	line-height: 43px;
+	margin: 0 auto;
+	padding-left: 20px;
+	background-color: #DDDDDD;
+	color: #666666;
+	font-size: 14px;
+}
+.location a{
+	color: #0085DF;
+}
+.news-sepline{
+	width: 1200px;
+	height: 1px;
+	background-color: #DDDDDD;
+	margin-top: 10px;
+}
+.bottom-sepline{
+	width: 1200px;
+	height: 1px;
+	background-color: #DDDDDD;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+.share{
+	float: right;
+	height: 32px;
+	line-height: 32px;
+	margin: 25px 20px 30px 0;
+}
+.share span{
+	font-size: 14px;
+	color: #666;
+}
+.share > *{
+	float: left;
+	margin-left: 4px;
+}
+.ico{ background:url("../images/news/ico.png") top left no-repeat; }
+.add{ width:32px; height:32px; background-position:-10px -10px; }
+.baidu{ width:32px; height:32px; background-position:-10px -52px; }
+.qqwb{ width:32px; height:32px; background-position:-10px -94px; }
+.sina{ width:32px; height:32px; background-position:-10px -136px; }
+.qqzone{ width:32px; height:32px; background-position:-10px -178px; }
+.qq{ width:32px; height:32px; background-position:-10px -220px; }
+.friend{ width:32px; height:32px; background-position:-10px -262px; }
+.wechat{ width:32px; height:32px; background-position:-10px -304px; }
+
+.news-content{
+	width: 1100px;
+	margin: 0 auto 0;
+	text-align: center;
+}
+.news-content h3{
+	font-family: "Microsoft YaHei";
+	font-size: 28px;
+	color: #666;
+}
+.news-content .text-sepline{
+	width: 1100px;
+	height: 1px;
+	background-color: #DDDDDD;
+	margin-top: 20px;
+}
+.news-content .owner{
+	text-align: center;
+	margin: 10px 0px;
+}
+.owner span{
+	font-size: 14px;
+	color: #999;
+}
+.owner span.center{
+	margin: 10px 140px;
+}
+.left{
+	float: left;
+}
+.getmore{
+	width: 1100px;
+	height: 43px;
+	background-color: #ddd;
+	margin: 10px auto;
+	line-height: 43px;
+	font-size: 14px;
+}
+.getmore a{
+	color: #666;
+}
+.getmore a:hover{
+	text-decoration: none;
+}
+.bg{
+	background-color: #EEEEEE;
+	height: 100%;
+	overflow: hidden;
+}
+.law-container{
+	margin-top: 174px;
+	margin-bottom: 62px;
+	height: 1120px;
+	background-color: #fff;
+
+}
+.law-container p.loc{
+	width: 1163px;
+	margin: 0 auto;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	padding-left: 14px;
+	color: #666666;
+	border-bottom: #EEEEEE 1px solid ;
+}
+p.loc a{
+	color: #0085DF;
+
+}
+.law-container h1{
+	color: #333333;
+	font-size: 36px;
+	text-align: center;
+	font-family: "Microsoft YaHei";
+	margin: 60px auto 45px;
+}
+.law-container p.para{
+	width: 1160px;
+	margin: 0 auto;
+	line-height: 28px;
+	font-size: 14px;
+}
+.law-container h5{
+	width: 1160px;
+	margin: 0 auto;
+	text-align: left;
+	color: #666666;
+	font-family: "SimSun";
+	font-weight: bold;
+	margin-top: 35px;
+	margin-bottom: 10px;
+}

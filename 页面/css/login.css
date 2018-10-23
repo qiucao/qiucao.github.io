@@ -1,0 +1,19 @@
+.lg-container{
+	margin: 101px auto 0;
+	padding: 60px 0;
+}
+.common-header{
+	border-bottom: 1px solid #DDDDDD;
+}
+.showimg{
+	float: left;
+	width: 680px;
+	height: 445px;
+}
+.lg-form{
+	position: relative;
+	float: left;
+	top: 20px;
+	left: 64px;
+	border: 1px solid #ddd;
+}

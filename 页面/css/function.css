@@ -1,0 +1,226 @@
+@charset "utf-8";
+.tab-box{
+	width: 100%;
+	min-width: 1200px;
+	background-color: #F6F8FD;
+	margin-top: 100px;
+	height: 140px;
+}
+.tab{
+	width: 1125px;
+	height: 140px;
+	margin: 0 auto;
+}
+.tab li{
+	width: 280px;
+	height: 140px;
+	float: left;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+}
+.tab li.active{
+	position: relative;
+	width: 280px;
+	height: 140px;
+	background-color: #0085CC;
+}
+.tab li:first-child{
+	border-left: 1px solid #DDECF8;
+}
+.tab li{
+	border-right: 1px solid #DDECF8;
+}
+.tab li h4{
+	font-size: 18px;
+	color: #0085CC;
+	margin-top: 40px;
+}
+.tab li p{
+	color: #666666;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	margin-top: 6px;
+}
+.tab li span{
+	display: none;
+}
+.tab li.active h4{
+	color: #fff;
+	font-size: 24px;
+}
+.tab li.active p{
+	color: #fff;
+	font-size: 14px;
+}
+.tab li.active span{
+	display: block;
+}
+.tab li span.downarrow{
+	position: absolute;
+	width: 34px;
+	height: 14px;
+	background-image: url(../images/function/downarrow.png);
+	bottom: -14px;
+	left: 50%;
+	margin-left: -17px;
+}
+.pay-box{
+	width: 884px;
+	height: 158px;
+	background-image: url(../images/function/pay-box.png);
+	margin: 90px auto 0;
+	position: relative;
+}
+.pay-box .box-title{
+	position: absolute;
+	font-family: "Microsoft YaHei";
+	font-size: 24px;
+	color: #0085CC;
+	top: 0px;
+	left: 36px;
+}
+.pay-box span.link-ico{
+	background-image: url(../images/function/ques.png);
+	background-repeat: no-repeat;
+	background-position: 4px center;
+	padding-left: 26px;
+	height: 22px;
+	position: absolute;
+	right: 10px;
+	top: -14px;
+}
+span.link-ico a{
+	vertical-align: middle;
+	margin-top: -1px;
+	display: block;
+	font-size: 14px;
+	color: #0085CC;
+}
+.qf-spay-content{
+	margin-top: 35px;
+	position: relative;
+}
+
+form.query{
+	padding-top: 35px;
+    padding-left: 45px;
+}
+.qf-spay-content label.qf-form-label{
+	font-size: 14px;
+	color: #999;
+	vertical-align: middle;
+	text-align: right;
+	margin-left: 15px;
+	margin-right: 10px;
+}
+.qf-spay-content input.input-short{
+	width: 96px;
+	height: 18px;
+
+}
+.qf-spay-content input.input-long{
+	width: 216px;
+	height: 18px;
+}
+.qf-spay-content input.qf-btn-submit{
+	background-color: #0085cc;
+    text-align: center;
+
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #0085cc;
+    border-radius: 3px;
+	width: 120px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 28px;
+
+}
+.input-common {
+    padding: 6px 12px;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+.bg{
+	background-image: url(../images/function/bg.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+.pay-plan{
+	width: 680px;
+	margin: 0 auto;
+}
+.pay-plan h4{
+	color: #333333;
+	font-size: 18px;
+	font-family: "Microsoft YaHei";
+	text-align: center;
+	width: 220px;
+	display: block;
+	margin: 70px auto 30px;
+}
+.pay-plan table.tbplan{
+	width: 624px;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+table.tbplan tr{
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+table.tbplan tr th{
+	text-align: left;
+	height: 30px;
+	line-height: 30px;
+	border-left: 1px solid #DDDDDD;
+	padding-left: 5px;
+}
+table.tbplan tr th:first-child{
+	border-left: 0;
+}
+table.tbplan tr td{
+	text-align: left;
+	height: 30px;
+	line-height: 30px;
+	border-left: 1px solid #DDDDDD;
+	padding-left: 5px;
+}
+table.tbplan tr td:first-child{
+	border-left: 0;
+}
+table.tbplan tr td a{
+	color: #0085CC;
+}
+div.question{
+	width: 624px;
+	text-align: center;
+	margin: 20px auto;
+}
+div.question a{
+	background-image: url(../images/function/ico-1.png);
+	background-repeat: no-repeat;
+	background-position: 2px center;
+	padding-left: 20px;
+	padding-bottom: 2px;
+	display: inline-block;
+}
+div.coop{
+	text-align: center;
+	margin-bottom: 220px;
+	height: 300px;
+}
+div.coop h1{
+	margin: 100px auto 70px;
+}
+div.coop-items{
+	width: 1066px;
+	margin: 0 auto;
+}
+.coop-items a{
+	float: left;
+	margin-left: 15px;
+}
+.coop-items a:first-child{
+	margin-left: 0;
+}

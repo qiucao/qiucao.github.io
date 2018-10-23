@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>拨浪鼓综合服务平台--首页</title>
+	<meta content="拨浪鼓市场综合服务平台" name="description" />
+	<meta content="拨浪鼓市场综合服务平台" name="keywords"/>
+	<link rel="stylesheet" href="css/global-main.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<div class="common-header">
+	<div class="header-content">
+		<a href="" class="logo-link"><img class="logo" src="images/logo.png"/></a>
+		<ul class="nav">
+			<li>
+				<a href="">首页</a>					
+			</li>
+			<li><a href="">商位缴费</a></li>
+			<li>
+				<a href="">商位贷款</a>
+				<img class="lt-corner" src="images/ico/loan.png"/>
+			</li>
+			<li><a href="">泊位证办理</a>
+				<img class="lt-corner" src="images/ico/ico-parklot.png"/>
+			</li>
+			<li><a href="">开票结汇</a></li>
+			<li><a href="">转租转让</a></li>
+			<li><a href="">经侦征信</a></li>
+			<div class="clr"></div>
+		</ul>
+		<div class="clr"></div>
+	</div>
+</div>
+<div class="container lg-container">
+	<div class="showimg">
+		<img src="images/login/lg.png"/>
+	</div>
+	<form action="" method="" class="login-form lg-form">
+		<h4 class="form-title">账号登录</h4>
+		<div class="form-group">
+			<input type="text" class="common-input username" placeholder="登录名" />
+		</div>
+		<div class="form-group">
+			<input type="text" class="common-input password" placeholder="登录名" />
+		</div>
+		<div class="form-option">
+			<label class="autologin"><input type="checkbox" class="autologin-checkbox"/>自动登录</label>
+			<span class="helplink">
+				<a href="">忘记密码</a>
+				<span>|</span>
+				<a href="" class="freereg">免费注册</a>
+			</span>
+			<div class="clr"></div>
+		</div>
+		<div class="form-group">
+			<input type="submit" class="common-btn login" value="登录"/>
+			<input type="button" class="common-btn recognize" value="认证"/>
+			<div class="clr"></div>
+		</div>
+		<div class="form-sepcontent">
+			<span class="line"></span>
+			<span class="text">其他方式登录</span>
+			<span class="line"></span>
+			<div class="clr"></div>
+		</div>
+		<div class="form-otherway">
+			<a href="" class="linkywg">使用义乌购账号登录</a>
+		</div>
+	</form>
+</div>
+<div class=" intro-footer">
+	<div class="content">
+		<div class="left">
+			<p class="friend-link">
+				<a href="">关于拨浪鼓</a>
+				<span>|</span> 
+				<a href="">咚咚瑶瑶介绍</a>
+				<span>|</span> 
+				<a href="">法律声明</a>
+				<span>|</span> 
+				<a href="">服务条款</a>
+				<span>|</span> 
+				<a href="">隐私声明</a>
+				<span>|</span> 
+				<a href="">联系我们</a>
+			</p>
+			<p class="reservation">© 2016-2017 义乌中国小商品城信息技术有限公司 版权所有 浙B2-20110340-10</p>
+			<p class="serviceline">市场服务热线：96032</p>
+		</div>
+		<div class="right">
+			<img src="images/ptjieshao/gzh-small.png" />
+		</div>
+		<div class="clr"></div>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/echarts.min.js"></script>
+<script type="text/javascript" src="js/chartOption.js"></script>
+<script type="text/javascript" src="js/map/china.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".tab li").click(function(){
+			$(".tab li.active").removeClass("active");
+			$(this).addClass("active");
+		})
+	})
+</script>
+</html>

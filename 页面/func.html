@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>拨浪鼓综合服务平台--首页</title>
+	<meta content="拨浪鼓市场综合服务平台" name="description" />
+	<meta content="拨浪鼓市场综合服务平台" name="keywords"/>
+	<link rel="stylesheet" href="css/global-main.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/function.css">
+</head>
+<body>
+<div class="common-header">
+	<div class="header-content">
+		<a href="" class="logo-link"><img class="logo" src="images/logo.png"/></a>
+		<ul class="nav">
+			<li>
+				<a href="">首页</a>					
+			</li>
+			<li><a href="">商位缴费</a></li>
+			<li>
+				<a href="">商位贷款</a>
+				<img class="lt-corner" src="images/ico/loan.png"/>
+			</li>
+			<li><a href="">泊位证办理</a>
+				<img class="lt-corner" src="images/ico/ico-parklot.png"/>
+			</li>
+			<li><a href="">开票结汇</a></li>
+			<li><a href="">转租转让</a></li>
+			<li><a href="">经侦征信</a></li>
+			<div class="clr"></div>
+		</ul>
+		<div class="clr"></div>
+	</div>
+</div>
+<div class="tab-box">
+	<ul class="tab">
+		<li class="active">
+			<h4>商位缴费</h4>
+			<p>租金、物业费、空调费</p>
+			<span class="downarrow"></span>
+		</li>
+		<li>
+			<h4>宽带缴费</h4>
+			<p>市场宽带自助续缴</p>
+			<span class="downarrow"></span>
+		</li>
+		<li>
+			<h4>泊车位申请</h4>
+			<p>市场泊位证在线办理</p>
+			<span class="downarrow"></span>
+		</li>
+		<li>
+			<h4>在线报修</h4>
+			<p>市场设施在线快速报修</p>
+			<span class="downarrow"></span>
+		</li>
+	</ul>
+</div>
+<div class="bg">
+	<div class="container">
+		<div class="pay-box">
+			<h4 class="box-title">商位缴费信息查询</h4>
+			<span class="link-ico"><a href="">商位缴费流程指南</a></span>
+			<form class="query">
+				<div class="qf-spay-content ">
+	                <form action="/boothpay/queryall.html" method="post" id="fillForm" novalidate="novalidate">
+	                    <label class="qf-form-label">商位号</label>
+	                    <input type="text" name="boothno" id="boothno" class="input-common input-short" prefix="shopid">
+	                    <span name="errorInfo"></span>
+	                    <label class="qf-form-label">商位使用权人身份证号</label>
+	                    <input type="text" name="idcard" class="input-common input-long" id="idcard" prefix="idnum">
+	                    <span name="errorInfo"></span>
+	                    <input type="submit" id="btn-submit" class="btn-common qf-btn-submit" value="立即查询">
+	                </form>
+	            </div>
+			</form>
+		</div>
+		<div class="pay-plan">
+			<h4>近期市场商位缴费计划安排</h4>
+			<table class="tbplan" cellspacing="0" cellpadding="0">
+				<colgroup>
+					<col width="30%" />
+					<col width="30%" />
+					<col width="30%" />
+					<col width="10%" />
+				</colgroup>
+				<tr>
+					<th>所在市场</th>
+					<th>缴费项目</th>
+					<th>缴费时间</th>
+					<th></th>
+				</tr>
+				<tr>
+					<td>国际商贸城一区</td>
+					<td>商位使用费、物业费</td>
+					<td>2017年5月2日-12日日</td>
+					<td><a href="">详情</a></td>
+				</tr>
+				<tr>
+					<td>国际商贸城一区</td>
+					<td>商位使用费、物业费</td>
+					<td>2017年5月2日-12日日</td>
+					<td><a href="">详情</a></td>
+				</tr>
+				<tr>
+					<td>国际商贸城一区</td>
+					<td>商位使用费、物业费</td>
+					<td>2017年5月2日-12日日</td>
+					<td><a href="">详情</a></td>
+				</tr>
+			</table>
+			<div class="question">
+				<a href="" >如何直接在线缴费？</a>
+				<a href="" >如何登录后缴费？</a>
+				<a href="" >网银遇到问题怎么办？</a>
+			</div>
+		</div>
+		<div class="coop">
+			<h1>合作伙伴</h1>
+			<div class="coop-items">
+				<a><img src="images/function/boc.png"/></a>
+				<a><img src="images/function/bocc.png"/></a>
+				<a><img src="images/function/boc.png"/></a>
+				<a><img src="images/function/bocc.png"/></a>
+				<a><img src="images/function/boc.png"/></a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class=" intro-footer">
+	<div class="content">
+		<div class="left">
+			<p class="friend-link">
+				<a href="">关于拨浪鼓</a>
+				<span>|</span> 
+				<a href="">咚咚瑶瑶介绍</a>
+				<span>|</span> 
+				<a href="">法律声明</a>
+				<span>|</span> 
+				<a href="">服务条款</a>
+				<span>|</span> 
+				<a href="">隐私声明</a>
+				<span>|</span> 
+				<a href="">联系我们</a>
+			</p>
+			<p class="reservation">© 2016-2017 义乌中国小商品城信息技术有限公司 版权所有 浙B2-20110340-10</p>
+			<p class="serviceline">市场服务热线：96032</p>
+		</div>
+		<div class="right">
+			<img src="images/ptjieshao/gzh-small.png" />
+		</div>
+		<div class="clr"></div>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/echarts.min.js"></script>
+<script type="text/javascript" src="js/chartOption.js"></script>
+<script type="text/javascript" src="js/map/china.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".tab li").click(function(){
+			$(".tab li.active").removeClass("active");
+			$(this).addClass("active");
+		})
+	})
+</script>
+</html>
