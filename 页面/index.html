@@ -1,21 +1,32 @@
-<html>  
+<html>
+
 <head>
-    <title>不二情书？</title>
-<script type="text/javascript">  
-function textModify()  
-{  
-    var obj = document.getElementById("p");  
-    obj.innerHTML= obj.innerHTML+"蒋惠我爱你！！";   
-}  
- 
-</script>  
-</head>  
-  
-<body>  
-<form>  
-<input type="button" value="别傻" onClick="textModify()">  
-</form>  
-<p id="p"></p>  
-</body>  
-  
-</html>  
+</head>
+
+<body>
+        <p id="xxx"></p>
+        <div align="center" style="margin-top: 30%">
+            <input type="text" id="txt">
+        <input type="button" value="开始" onClick="timedCount()">
+        </div>
+        
+</body>
+
+<script type="text/javascript">
+var a;
+    function timedCount(){
+var c = document.getElementById('txt').value;
+var k=document.getElementById('xxx').innerHTML;
+a=k+c;
+
+document.getElementById('xxx').innerHTML=a;
+setTimeout("timedCount()", 500);
+
+
+
+
+}
+
+</script>
+
+</html>
